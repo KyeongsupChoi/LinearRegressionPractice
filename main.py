@@ -1,3 +1,7 @@
 #Yeah I'm calling thir Lirp
 
-sscxcxcdsds
+import pandas as pd
+
+df = pd.read_csv('insurance.csv')
+
+print(df)
